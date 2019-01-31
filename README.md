@@ -37,4 +37,6 @@ WARN 4750 --- [           main] c.c.f.a.i.LocalFileConfigRepository      : Sync 
 
 不需要```@EnableApolloConfig```  
 
-windows下使用docker-compose方式，找不到正确地址；因为会访问docker容器的地址,17开头的，而又因为其在vm中，外边访问不到，最终导致报错。
+windows下使用docker-compose方式，找不到正确地址；因为会访问docker容器的地址,17开头的，而又因为其在vm中，外边访问不到，最终导致报错。  
+
+```@ConfigurationProperties```的方式，自动刷新不好使
