@@ -2,7 +2,7 @@
 apollo:
   bootstrap:
     enabled: true
-#  meta: http://192.168.99.100:8070
+#  meta: http://192.168.99.100:8080
   meta: http://106.37.100.59:8080
 app:
   id: mr
